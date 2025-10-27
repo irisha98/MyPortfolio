@@ -1,38 +1,240 @@
-.App {
-  text-align: center;
+
+body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-color: #0a192f; 
+  color: #ccd6f6;        
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  cursor: default;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code, pre, .tags {
+  font-family: 'Fira Code', monospace;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{
+  color: #8892b0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;        
+  align-items: flex-start;        
+  max-width: 1200px;          
+  margin: 0 auto;                 
+  padding: 4rem 2rem;              
+  gap: 4rem;                      
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 4rem;
+  left: calc(50% - 600px + 2rem); 
+  width: 30%;
+  height: calc(100vh - 8rem);
+}
+
+.main-content {
+  margin-left: 45%;
+  flex: 1;
+}
+
+
+a, button, .clickable {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover, button:hover, .clickable:hover {
+  color: #64ffda; 
+  transform: scale(1.02);
+}
+
+.cursor-glow {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  pointer-events: none;
+  border-radius: 100%;
+  background: radial-gradient(circle, rgba(100, 255, 218, 0.07) 0%, rgba(100, 255, 218, 0.03) 100%, transparent 80%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  mix-blend-mode: screen;
+  filter: blur(40px);
+}
+
+
+/* ----------РАЗДЕЛ С ПРОЕКТАМИ---------- */
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover .project-content {
+  background-color: rgba(100, 255, 218, 0.05); 
+  transform: scale(1.01); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-image-wrapper {
+  flex: 1;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.02);
+}
+
+.project-text {
+  flex: 2;
+  color: #ccd6f6;
+}
+
+.project-text h3 {
+  color: #64ffda;
+  margin-bottom: 0.5rem;
+}
+
+.tags span {
+  background-color: #112240;
+  color: #64ffda;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+/* ----------------ССЫЛКИ----------------- */
+ 
+
+.sidebar-name {
+  font-size: 70px;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+.sidebar__title {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  margin-top: 0.2rem; 
+  margin-bottom: 0.8rem;
+}
+
+.sidebar__description {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  max-width: 250px;
+}
+
+.sidebar__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.sidebar__link:hover {
+  color: #94a3b8;
+  
+}
+
+.sidebar__line {
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #94a3b8;
+  margin-right: 0.75rem;
+  transition: background-color 0.3s ease;
+ 
+}
+
+.sidebar__link:hover .sidebar__line {
+  background-color: #94a3b8;
+ 
+}
+
+.sidebar__footer {
+  margin-top: 2rem;
+}
+
+/* 
+---------СОЦ СЕТИ----------- */
+
+.contacts {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contacts a {
+  color: #94a3b8;
+  font-size: 1.4rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contacts a:hover {
+  color: #818cf8; /* мягкий фиолетовый, как у Brittany */
+  transform: translateY(-3px);
+}
+
+.contacts a:focus {
+  outline: 2px solid #818cf8;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+
+/* 
+-----------------СЕРТИФИКАТЫ------------------ */
+
+.slider-wrapper {
+  max-width: 500px;
+  margin: 50px auto 0;
+
+ 
+ 
+}
+
+.slide-image {
+  width: 70%;
+  max-width: 400px;
+  height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 0 auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0 ,0.08);
 }
