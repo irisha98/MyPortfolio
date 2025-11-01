@@ -5,7 +5,7 @@ function Projects() {
         <a href="https://planner-react-backend-frontend.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="100px"/>
+                 <img src="/image.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>Life Planner — веб-приложение для планирования задач</h4>
@@ -29,7 +29,7 @@ function Projects() {
         <a href="https://redux-menu-restaurant-app.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image2.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="100px"/>
+                 <img src="/image2.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>Redux Menu Restaurant App — интерактивное меню ресторана</h4>
@@ -47,7 +47,7 @@ function Projects() {
          <a href="https://to-do-listyellow.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image3.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="100px"/>
+                 <img src="/image3.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>SelfCare To-Do List — минималистичный список задач</h4>
@@ -65,7 +65,7 @@ function Projects() {
          <a href="https://sprightly-crostata-3b2e15.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image4.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="100px"/>
+                 <img src="/image4.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>Weather App — простое приложение прогноза погоды</h4>
@@ -83,7 +83,7 @@ function Projects() {
          <a href="https://remarkable-salmiakki-18e711.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image5.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="100px"/>
+                 <img src="/image5.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>Split the Bill App — калькулятор разделения счёта</h4>
@@ -100,7 +100,7 @@ function Projects() {
         <a href="https://regal-pithivier-ef0551.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image6.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="100px"/>
+                 <img src="/image6.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>Guess the Number Game — игра на угадывание числа</h4>
@@ -116,7 +116,7 @@ function Projects() {
         <a href="https://effulgent-puffpuff-f09940.netlify.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image7.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="100px"/>
+                 <img src="/image7.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>New Year Countdown App — обратный отсчёт до праздника</h4>
@@ -132,7 +132,7 @@ function Projects() {
         <a href="https://celadon-horse-6398d9.netlify.app/#" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
-                 <img src="/image8.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="100px"/>
+                 <img src="/image8.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
               </div>
               <div className="project-text">
                  <h4>Specter Law Landing Page — лендинг юридической фирмы</h4>
