@@ -13,8 +13,8 @@ body {
 html, body {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden; /* — убираем горизонтальную прокрутку */
-  box-sizing: border-box;
+  overflow-x: hidden; 
+  box-sizing: border-box; 
 }
 
 
@@ -26,8 +26,8 @@ p{
 }
 .container {
   display: flex;
-  /* justify-content: center;     */
-  justify-content: space-between;
+  justify-content: center;    
+  /* justify-content: space-between; */
   flex-wrap: wrap;    
   align-items: flex-start;        
   max-width: 1200px;          
@@ -403,7 +403,7 @@ a {
     font-size: 2rem;
   }
 }
-* {
+/* * {
   box-sizing: border-box;
   max-width: 100vw;
-}
+} */
