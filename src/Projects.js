@@ -129,7 +129,7 @@ function Projects() {
           </div>
         </a>
 
-        <a href="https://extraordinary-sable-b24342.netlify.app" target="_blank" rel="noopener noreferrer">
+        <a href="https://capable-bubblegum-e84d62.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image8.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
