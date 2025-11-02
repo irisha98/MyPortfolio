@@ -2,7 +2,7 @@
 function Projects() {
   return (
     <section id="projects">
-        <a href="https://planner-react-backend-frontend.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://planner-react-backend-frontend.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
@@ -62,7 +62,7 @@ function Projects() {
          </a>
 
 
-         <a href="https://sprightly-crostata-3b2e15.netlify.app/" target="_blank" rel="noopener noreferrer">
+         <a href="https://shimmering-hamster-bfaf59.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image4.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
@@ -80,7 +80,7 @@ function Projects() {
         </a>
 
 
-         <a href="https://remarkable-salmiakki-18e711.netlify.app/" target="_blank" rel="noopener noreferrer">
+         <a href="https://polite-stardust-0a3269.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image5.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
@@ -97,7 +97,7 @@ function Projects() {
         </a>
 
 
-        <a href="https://regal-pithivier-ef0551.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://cozy-kulfi-4fa796.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image6.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
@@ -113,7 +113,7 @@ function Projects() {
           </div>
         </a>
 
-        <a href="https://effulgent-puffpuff-f09940.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://inquisitive-griffin-ba31b2.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image7.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
@@ -129,7 +129,7 @@ function Projects() {
           </div>
         </a>
 
-        <a href="https://celadon-horse-6398d9.netlify.app/#" target="_blank" rel="noopener noreferrer">
+        <a href="https://extraordinary-sable-b24342.netlify.app" target="_blank" rel="noopener noreferrer">
           <div className="project-content">
               <div className="project-image-wrapper">
                  <img src="/image8.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
