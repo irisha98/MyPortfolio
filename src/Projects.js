@@ -7,8 +7,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://planner-react-backend-frontend.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/toDoList-react-node-frontend.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://planner-react-backend-frontend.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/toDoList-react-node-frontend.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -34,8 +34,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image2.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://redux-menu-restaurant-app.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/redux-menu-restaurant-app.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://redux-menu-restaurant-app.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/redux-menu-restaurant-app.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -55,8 +55,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image3.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://to-do-listyellow.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/to-do-list-yellow.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://to-do-listyellow.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/to-do-list-yellow.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -76,8 +76,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image4.png" alt="Screenshot of Spotify Connected App" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://shimmering-hamster-bfaf59.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/vanilla-js-weatherAPI.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://shimmering-hamster-bfaf59.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/vanilla-js-weatherAPI.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -98,8 +98,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image5.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
                   <div className="twoBtn">
-                      <a href="https://polite-stardust-0a3269.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/vanilla-js-split-bill.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://polite-stardust-0a3269.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/vanilla-js-split-bill.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -119,8 +119,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image6.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://game-vanilla-js.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/game.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://game-vanilla-js.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/game.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -139,8 +139,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image7.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://count-down-vanilla-js.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/santa-countDown-vanilla-js.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://count-down-vanilla-js.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/santa-countDown-vanilla-js.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
@@ -159,8 +159,8 @@ function Projects() {
               <div className="project-image-wrapper">
                  <img src="/image8.png" alt="Screenshot of Spotify Connected Ap" className="project-image" width="250px" height="150px"/>
                  <div className="twoBtn">
-                      <a href="https://lowyers-html.netlify.app" className="btn" target="_blank">Смотреть демо</a>
-                      <a href="https://github.com/irisha98/lowyers-html.git" className="btn" target="_blank">Смотреть код</a>
+                      <a href="https://lowyers-html.netlify.app" className="btn" target="_blank" rel="noopener noreferrer">Смотреть демо</a>
+                      <a href="https://github.com/irisha98/lowyers-html.git" className="btn" target="_blank" rel="noopener noreferrer">Смотреть код</a>
                  </div>
               </div>
               <div className="project-text">
