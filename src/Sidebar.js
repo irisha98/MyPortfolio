@@ -7,8 +7,9 @@ function Sidebar() {
     <nav className="sidebar">
       <div className="sidebar__content">
         <div className="sidebar__header">
+          <img src="/photo.png" width={150} alt="icon"/>
           <h1 className="sidebar-name">Irina Dorzheeva</h1>
-          <h3 className="sidebar__title">Front End Engineer</h3>
+          <h3 className="sidebar__title">Full-stack разработчик: React / Redux / Node.js. Создаю функциональные веб-приложения и аккуратные интерфейсы, когда это нужно.</h3>
         </div>
 
         <br></br>

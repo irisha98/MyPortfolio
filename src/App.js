@@ -12,15 +12,12 @@ import Sidebar from './Sidebar';
 function App() {
   return (
     <div className="container">
-      <CursorGlow />
-      
-         <Sidebar />
-      
+        <CursorGlow />
+        <Sidebar />
       <main className="main-content">
         <About />
         <Projects />
         <CertificatesShow />
-        
       </main>
       <Footer />
     </div>
